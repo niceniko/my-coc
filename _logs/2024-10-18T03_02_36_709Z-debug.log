@@ -1,0 +1,30 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'D:\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\ADMIN\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'init',
+1 verbose cli   '--force'
+1 verbose cli ]
+2 info using npm@6.14.10
+3 info using node@v20.18.0
+4 warn using --force I sure hope you know what you are doing.
+5 silly package data undefined
+6 info init written successfully
+7 verbose stack Error: Invalid name: "project-跑团网页"
+7 verbose stack     at ensureValidName (C:\Users\ADMIN\AppData\Roaming\npm\node_modules\npm\node_modules\normalize-package-data\lib\fixer.js:336:15)
+7 verbose stack     at Object.fixNameField (C:\Users\ADMIN\AppData\Roaming\npm\node_modules\npm\node_modules\normalize-package-data\lib\fixer.js:215:5)
+7 verbose stack     at C:\Users\ADMIN\AppData\Roaming\npm\node_modules\npm\node_modules\normalize-package-data\lib\normalize.js:32:38
+7 verbose stack     at Array.forEach (<anonymous>)
+7 verbose stack     at normalize (C:\Users\ADMIN\AppData\Roaming\npm\node_modules\npm\node_modules\normalize-package-data\lib\normalize.js:31:15)
+7 verbose stack     at final (C:\Users\ADMIN\AppData\Roaming\npm\node_modules\npm\node_modules\read-package-json\read-json.js:429:5)
+7 verbose stack     at then (C:\Users\ADMIN\AppData\Roaming\npm\node_modules\npm\node_modules\read-package-json\read-json.js:161:5)
+7 verbose stack     at ReadFileContext.<anonymous> (C:\Users\ADMIN\AppData\Roaming\npm\node_modules\npm\node_modules\read-package-json\read-json.js:367:18)
+7 verbose stack     at ReadFileContext.callback (C:\Users\ADMIN\AppData\Roaming\npm\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:123:16)
+7 verbose stack     at FSReqCallback.readFileAfterOpen [as oncomplete] (node:fs:299:13)
+8 verbose cwd D:\web组件\project-跑团网页
+9 verbose Windows_NT 10.0.22631
+10 verbose argv "D:\\nodejs\\node.exe" "C:\\Users\\ADMIN\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "init" "--force"
+11 verbose node v20.18.0
+12 verbose npm  v6.14.10
+13 error Invalid name: "project-跑团网页"
+14 verbose exit [ 1, true ]

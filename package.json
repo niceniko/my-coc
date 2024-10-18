@@ -1,0 +1,20 @@
+{
+  "name": "project-pao-tuan-wang-ye",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build src/huan-ying-jie-mian.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^9.12.0",
+    "parcel-bundler": "^1.12.5",
+    "prettier": "^3.3.3"
+  }
+  
+}
